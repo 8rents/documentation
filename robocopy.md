@@ -36,21 +36,16 @@ robocopy <Source> <Destination> [<File>[ ...]] [<Options>]
 -   ###  __Mirror__ - `/MIR`
     __Mirror__ the source directory and the destination directory. Beware that this may delete files at the destination.
 
--  ### __`/FFT`__ 
-    uses f### __Fat file timing__ - `/FFT`
-  ### __Fat file timing__ instead of NTFS. This means the granularity is a bit less precise. For across-network share operations this seems to be much more reliable - just don’t rely on the file timings to be completely precise to the second.
-
--   __`/Z`__ 
-  ### __ReZume__ `/Z`
+-  ### __Fat file timing__ -`/FFT`
+    ### __Fat file timing__ instead of NTFS. This means the granularity is a bit less precise. For across-network share operations this seems to be much more reliable - just don’t rely on the file timings to be completely precise to the second.
+  
+-   __ReZume__ - `/Z`
+  
   ensures robocopy can __resume__ the transfer of a large file in mid-file instead of restarting.
 
--   __### __Ignore hidden files__ - `/XA:H`__ 
-  
- - makes robocopy i  __Ignore hidden files__, usually these will be system files that we’re not interested in.
-
--   __### __Wait time__ - `/W:5`__  -    
-    rReduces the w__Wait time__ between failures (*to 5 seconds instead of the 30 second default.
-in this case*)`
+-   __Ignore hidden files__ - `/XA:H`  
+  rReduces the w__Wait time__ between failures (*to 5 seconds instead of the 30 second default.
+  in this case*)`
 
 
 ## Useful Examples
@@ -98,9 +93,3 @@ robocopy C:\Users\sfplinternet\Dropbox D:\Dropbox /MIR /FFT /Z /XA:H /W:5
 
 - [Helpful Basics](https://improve.dk/simple-file-synchronization-using-robocopy/)
 - [More in-depth useful guide](https://adamtheautomator.com/robocopy/)
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NzAyNjIxOCwtMjEyMjg3MTY1Niw3MT
-k0MDkxMjEsLTIwNjUzMDY4ODksLTQ3NTgxODg1NywtMTMzODY3
-OTQzMiwtNDc1ODE4ODU3LC0xMzM4Njc5NDMyLC0xMDExMzA3Mz
-c5LC02MjYxMDkyNjIsLTYyMTA0NTA4Ml19
--->
