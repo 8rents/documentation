@@ -233,8 +233,3 @@ Other options through choco are
 - https://www.digitalocean.com/community/tutorials/how-to-use-rsync-to-sync-local-and-remote-directories
 
 
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4NDU1NjM4NSwtMTE3OTk5MTk2NiwtMz
-MyNDU1MzYzXX0=
--->

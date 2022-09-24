@@ -1,10 +1,10 @@
 
-![tmux](https://raw.githubusercontent.com/8rents/_/images/tmux-logo.svg)
+![tmux](https://raw.githubusercontent.com/8rents/_/i/tmux-logo.svg)
 
 # tmux - *a brief guide...*
 
 
-> *in great opposition to gnu screen...*
+> *in great opposition to gnu `screen`..*
 > 
 > *We will stand for powerful features triggered by illogical and hard to remember keyboard commands. The light is at the end of the tunnel and only massive and painstaking customization stands between us.*
 
@@ -152,8 +152,4 @@ Within tmux the view is a lot more comprehensive. Navigate the window with the a
 
 ## References
 
-- The vast majority of this guide was sourced from the incredible [Leimao tmux tutorial](https://leimao.github.io/blog/Tmux-Tutorial/) 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNTQwMzA1NywtMTYxMTQxOTYyNCwtMT
-U0NzU4NDQ0OSwxNDUxMDU4NzMwLC0zMzI0NTUzNjNdfQ==
--->
+- The vast majority of this guide was sourced from the incredible [Leimao tmux tutorial](https://leimao.github.io/blog/Tmux-Tutorial/)

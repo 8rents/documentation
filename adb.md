@@ -160,14 +160,3 @@ adb kill-server
 ## References
 
 - [Official Documentation](https://developer.android.com/studio/command-line/adb)
-<!--stackedit_data:
-eyJwcm9wZXJ0aWVzIjoidGl0bGU6IEFEQiBHdWlkZVxuYXV0aG
-9yOiBCcmVudG9uIEhvbGlkYXlcbnRhZ3M6ICdhcnRpY2xlLCBh
-ZGIsIGFuZHJvaWQsIGhhY2tpbmcnXG5jYXRlZ29yaWVzOiAncm
-9vdGluZywgcGhvbmVzLCBjbGknXG5leHRlbnNpb25zOlxuICBw
-cmVzZXQ6IGdmbVxuZXhjZXJwdDogV29ya2luZyB3aXRoIHRoZS
-BBbmRyb2lkIERlYnVnIEJyaWRnZSBpbiBQb3dlclNoZWxsXG5z
-dGF0dXM6IERyYWZ0XG5kYXRlOiAyMDIyLzAyLzIyXG4iLCJoaX
-N0b3J5IjpbMTczOTE0OTAsLTE1MDI5MTQ3MTIsNjY3NDE5MDAs
-LTE2ODM2NjcyNDJdfQ==
--->
