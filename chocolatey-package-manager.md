@@ -1,3 +1,5 @@
+![tmux](https://raw.githubusercontent.com/8rents/_/i/chocolatey-logo.svg)
+
 # Chocolatey Windows Package Manager
 
 ## Installation

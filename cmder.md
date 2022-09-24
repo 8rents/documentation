@@ -1,3 +1,4 @@
+![tmux](https://raw.githubusercontent.com/8rents/_/i/cmder.png)
 
 # cmder guide
 
@@ -27,5 +28,4 @@ C:\Dropbox\Platforms\Windows\Programs
 ```
 
 This way each time I download the Dropbox client and get it set up I should have all my terminal settings ready to go.
-
 
