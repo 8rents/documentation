@@ -117,7 +117,7 @@ The `APPDATA` folders hold different settings and information on Application Dat
 The `%APPDATA%` folder is located at:
 
 ```tex
-`C:\Users\sfplinternet\AppData\Roaming`
+C:\Users\sfplinternet\AppData\Roaming
 ```
 
 This is where most user installed application data will be.
