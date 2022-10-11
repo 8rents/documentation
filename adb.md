@@ -1,28 +1,11 @@
 # ADB Guide
 > #### Working with the Android Debug Bridge in PowerShell.
 
-### Navigate to the `ADB` folder after Dropbox has been installed.
-```powershell
-cd C:\Users\sfplinternet\Dropbox\Config\ADB\
+Android Debug Bridge is a command line tool that lets you communicate with an android device over usb or wifi from a laptop or desktop computer. You can issue commands, install applications, make back ups and much much more.
 
-## Offical Documentation
+## Installing ABD
 
-- https://developer.android.com/studio/command-line/adb
-
-## Install`adb`
-
-### Windows via Chocolatey (Preferred Method)
-
-```bash
-If you don't have chocolatey installed [see here](https://docs.chocolatey.org/en-us/choco/setup#non-administrative-install)
-```
-
-Once you have Chocolatey Installed simply run:
-
-```bash
-choco install adb
-```
-### Android or Debian based Linux via pkg or apt
+## Debian based Linux via pkg or apt
 
 ```bash
 apt update
@@ -31,11 +14,34 @@ adb help
 ```
 
 
-### Downloading ADB Manually & saving it to Dropbox
+
+## Windows with Chocolatey package manager (proffered)
+
+## Manual Installation
+
+Decide where you want your adb toolset to live. I'll install mine here for example:
+
+```bash
+C:\Users\sfplinternet\Dropbox\Config\ADB\
+```
+
+Then Download adb
 
 [Download ADB Here](https://developer.android.com/studio/releases/platform-tools)
 
-Move the `platform-tools/adb` folder to:
+## Install`adb`
+
+### Windows via Chocolatey (Preferred Method)
+
+
+If you don't have chocolatey installed [see here](https://docs.chocolatey.org/en-us/choco/setup#non-administrative-install)
+
+Once you have Chocolatey Installed simply run:
+
+```bash
+choco install adb
+```
+Move the `platfom-tools/adb` folder to:
 
 ```powershell
 cd C:\Users\sfplinternet\Dropbox\Scripts\ADB\
@@ -43,7 +49,7 @@ cd C:\Users\sfplinternet\Dropbox\Scripts\ADB\
 
 > __Note:__ If you use this method keep in mind that you are going to need to navigate to the install directory (probably `C:\Users\sfplinternet\Dropbox\Scripts\ADB\` and then each time you run the command prefix it with `./` so that it looks like this:
 
-## Working with 	`adb`
+## Working with `adb`
 
 If you installed with a package manager like chocolatey or you've added it into your shell path.  You'll use it like so:
 
