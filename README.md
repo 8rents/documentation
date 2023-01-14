@@ -10,8 +10,6 @@ These articles and guides will form the outline for the rewrite of the book *How
 
 In depth series of articles written on a particular subject.
 
-### [TOC](guides/)
-
 - [__Developing on Android__](guides/developing-on-andrioid/) - In depth series of articles detailing setting up a development server using Docker within Termux to set up a web development server, IDE and create a web app.
   1. [__Getting set up__](#) - Downloading Termux and AnLinux then installing Debian.
   2. [__Setting up your environments__](#) - Getting *oh my zsh* & and tmux configured, then installing Docker on the server side. 
@@ -25,8 +23,6 @@ In depth series of articles written on a particular subject.
 ## [Tools](tools/)
 
 Documentation written on various tools.
-
-### [TOC](tools/)
 
  
 
