@@ -1,8 +1,8 @@
 [Documentation](#) > [Guides](#) > [Developing on Android](#)
 
-# Getting Set Up for Developing on Android
+# Creating a Web Server
 
-> #### *Downloading Termux and AnLinux then installing Debian*
+> #### Setting up nginx with docker and connecting to it from the Android side.
 
 1. [__Setting up your environments__](#) - Getting *oh my zsh* & and tmux configured, then installing Docker on the server side. 
 2. [__Creating a Webserver__](#) - Installing *nginx* with *Docker* and then connecting to it from the Android side.
