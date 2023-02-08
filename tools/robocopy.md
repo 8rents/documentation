@@ -1,3 +1,5 @@
+[Documentation](../../../tree/1st-drafts) > [Tools](./) > **Robocopy**
+
 # `robocopy` Guide
 
 >  ### *A quick guide to using `robocopy` in `PowerShell`. It's basically the equivalent of a shitty version of `rsync` for native windows. Pretty gross... I mean the name is so cringe itself* ( : |) *Holy shit*

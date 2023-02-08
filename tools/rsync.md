@@ -1,6 +1,8 @@
-![tmux](https://raw.githubusercontent.com/8rents/_/i/rsync.png)
+[Documentation](../../../tree/1st-drafts) > [Tools](./) > **rSync**
 
-# rsync
+![rsync](https://raw.githubusercontent.com/8rents/_/i/rsync.png)
+
+# rSync
 
 > #### *Rsync, which stands for remote sync, is a remote and local file synchronization tool. It uses an algorithm to minimize the amount of data copied by only moving the portions of files that have changed.*
 

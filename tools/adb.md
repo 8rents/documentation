@@ -1,3 +1,5 @@
+[Documentation](../../../tree/1st-drafts) > [Tools](./) > **ADB**
+
 # ADB Guide
 
 > #### *Android Debug Bridge is a command line tool that lets you communicate with an android device over usb or wifi from a laptop or desktop computer. You can issue commands, install applications, make back ups and much much more*

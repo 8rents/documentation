@@ -1,7 +1,8 @@
+[Documentation](../../../tree/1st-drafts) > [Tools](./) > **Tmux**
 
 ![tmux](https://raw.githubusercontent.com/8rents/_/i/tmux-logo.svg)
 
-# tmux - *a brief guide...*
+# Tmux - *a brief guide...*
 
 
 > *in great opposition to gnu `screen`..*

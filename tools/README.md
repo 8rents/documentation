@@ -1,27 +1,18 @@
-[Documentation](#) > __Tools__
+[Documentation](../../../tree/1st-drafts) > [Tools](./)
 
-# Command Line Tools
+# Tools --- [1st Drafts]
 
 > #### *Documentation to various command line applications*
 
-- [ADB](adb.md)    
-  Android Debug Bridge. Used for debugging Android Phones and Tablets
-- [Chocolatey Package Manager](chocolatey-package-manager.md)    
-  Windows Package manager. Not as Nice as apt, but at least it’s something.
-- [cmder](cmder.md)    
-  A nicer terminal for windows. Portable and remembers your customizations.
-- [PowerShell](PowerShell.md)    
-  Uber power shell console for windows.
-- [robocopy](robocopy.md)    
-  Inferior version of rsync made for windows
-- [rsync](rsync.md)    
-  Superior tool to copy and clone files and directories
-- [stackedit](stackedit.md)    
-  Web based markdown editor
-- [tmux](tmux.md)    
-  The classic terminal multiplexor
-- [youtube-dl](youtube-dl.md)    
-  Classic tool to download 
+---
 
-
+- **[ADB (Android Debug Bridge)](adb.md)** --- Tool for connecting to and running commands on Android phones.
+- [**Chocolatey**](chocolatey-package-manager.md) --- A package manager for Windows
+- **[CMDR](cmder.md)** --- A multi platform terminal emulator that shines on portability.
+- **[PowerShell](powershell.md)** --- Windows best offering for the command line. *Not counting Linux subsystem.*
+- **[Robocopy](robocopy.md)** --- Windows paltry answer to rsync.
+- **[rSync](rsync.md)** --- The defacto tool for backing up and syncing directories.
+- **[Tmux](tmux.md)** --- A terminal multiplexor. Kick your command line into hyper drive or just buy a mac and use iTerm2.
+- **[Typora](typora.md)** --- A multiplatform markdown editor. Clean sleek and minimal.
+- **[YouTube-DL](youtube-dl.md)** --- A command line tool for downloading videos and audio from websites.
 
