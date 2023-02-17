@@ -129,3 +129,9 @@ This is where most user installed application data will be.
 ```tex
 C:\Users\sfplinternet\AppData\Local
 ```
+
+## 
+
+***
+
+🤍**2023** [GitHub](https://github.com/8rents?tab=repositories) **|** [Google Drive](https://bit.ly/brent-gd) **|** [My Bio](https://my.bio/8rents)

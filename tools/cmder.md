@@ -31,3 +31,8 @@ C:\Dropbox\Platforms\Windows\Programs
 
 This way each time I download the Dropbox client and get it set up I should have all my terminal settings ready to go.
 
+## 
+
+***
+
+🤍**2023** [GitHub](https://github.com/8rents?tab=repositories) **|** [Google Drive](https://bit.ly/brent-gd) **|** [My Bio](https://my.bio/8rents)

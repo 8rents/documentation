@@ -95,3 +95,9 @@ robocopy C:\Users\sfplinternet\Dropbox D:\Dropbox /MIR /FFT /Z /XA:H /W:5
 
 - [Helpful Basics](https://improve.dk/simple-file-synchronization-using-robocopy/)
 - [More in-depth useful guide](https://adamtheautomator.com/robocopy/)
+
+## 
+
+***
+
+🤍**2023** [GitHub](https://github.com/8rents?tab=repositories) **|** [Google Drive](https://bit.ly/brent-gd) **|** [My Bio](https://my.bio/8rents)

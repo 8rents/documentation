@@ -13,3 +13,8 @@ This Article is 2nd in the Series of [Developing on Android](#). The Previous Ar
 3. [__Configuring VScode__](#) - Configuring VScode with all the needed bells and whistles to make development enjoyable.
 4. [__Developing a Modern Web App__](#) - Finally with everything in place we'll put together a simple web app using a modern development approach, test it and then launch it on a different server.
 
+## 
+
+***
+
+🤍**2023** [GitHub](https://github.com/8rents?tab=repositories) **|** [Google Drive](https://bit.ly/brent-gd) **|** [My Bio](https://my.bio/8rents)

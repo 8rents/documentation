@@ -35,3 +35,9 @@ Documentation written on various tools.
 - **[Tmux](tools/tmux.md)** --- A terminal multiplexor. Kick your command line into hyper drive or just buy a mac and use iTerm2.
 - **[Typora](tools/typora.md)** --- A multiplatform markdown editor. Clean sleek and minimal.
 - **[YouTube-DL](tools/youtube-dl.md)** --- A command line tool for downloading videos and audio from websites.
+
+## 
+
+***
+
+🤍**2023** [GitHub](https://github.com/8rents?tab=repositories) **|** [Google Drive](https://bit.ly/brent-gd) **|** [My Bio](https://my.bio/8rents)

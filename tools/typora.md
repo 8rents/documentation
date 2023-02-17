@@ -38,3 +38,9 @@ I personally like to create a shortcut  to the themes directory so I can edit my
 ## Themes
 
 Themes are stored within the Typora Install directory.
+
+## 
+
+***
+
+🤍**2023** [GitHub](https://github.com/8rents?tab=repositories) **|** [Google Drive](https://bit.ly/brent-gd) **|** [My Bio](https://my.bio/8rents)

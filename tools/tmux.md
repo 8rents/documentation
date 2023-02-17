@@ -154,3 +154,9 @@ Within tmux the view is a lot more comprehensive. Navigate the window with the a
 ## References
 
 - The vast majority of this guide was sourced from the incredible [Leimao tmux tutorial](https://leimao.github.io/blog/Tmux-Tutorial/)
+
+## 
+
+***
+
+🤍**2023** [GitHub](https://github.com/8rents?tab=repositories) **|** [Google Drive](https://bit.ly/brent-gd) **|** [My Bio](https://my.bio/8rents)
