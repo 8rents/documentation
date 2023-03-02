@@ -27,7 +27,7 @@ In depth series of articles written on a particular subject.
 Documentation written on various tools.
 
 - **[ADB (Android Debug Bridge)](tools/adb.md)** --- Tool for connecting to and running commands on Android phones.
-- [**Chocolatey**](tools/chocolatey-package-manager.md) --- A package manager for Windows
+- **[Chocolatey](tools/chocolatey-package-manager.md)** --- A package manager for Windows
 - **[CMDR](tools/cmder.md)** --- A multi platform terminal emulator that shines on portability.
 - **[PowerShell](tools/powershell.md)** --- Windows best offering for the command line. *Not counting Linux subsystem.*
 - **[Robocopy](tools/robocopy.md)** --- Windows paltry answer to rsync.
@@ -40,4 +40,4 @@ Documentation written on various tools.
 
 ***
 
-🤍**2023** [GitHub](https://github.com/8rents?tab=repositories) **|** [Google Drive](https://bit.ly/brent-gd) **|** [My Bio](https://my.bio/8rents)
+**🤍 2023 BRENT [GitHub](https://github.com/8rents?tab=repositories) | [Google Drive](https://bit.ly/brent-gd) | [All My Links](https://allmylinks.com/8rents)**
