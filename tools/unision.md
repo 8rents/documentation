@@ -2,7 +2,7 @@
 
 
 
-# <img src="https://raw.githubusercontent.com/8rents/_/i/unison-logo.png" alt="Typora Icon" style="zoom: 3%;" /> Unison
+# <img src="https://raw.githubusercontent.com/8rents/_/i/unison-logo.png" alt="Typora Icon" style="zoom:5%;" /> Unison
 
 > #### *Rsync but different*
 

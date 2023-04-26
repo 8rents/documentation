@@ -1,6 +1,6 @@
-# <img src="https://raw.githubusercontent.com/8rents/_/i/vscode-icon.png" alt="Typora Icon" style="zoom: 4%;" />  vsCode
+# vsCode
 
-> #### *Microsoft's surprisingly awesome IDE*
+> IDE
 
 ---
 

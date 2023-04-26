@@ -1,6 +1,8 @@
 [Documentation](../../../tree/1st-drafts) > [Tools](./) > **Typora**
 
-# <img src="https://raw.githubusercontent.com/8rents/_/i/typora-icon.png" alt="Typora Icon" style="zoom:18%;" /> Typora
+![Typora Icon](https://raw.githubusercontent.com/8rents/_/i/typora-icon.png)
+
+# Typora
 
 > #### ***A Beautiful cross platform markdown editor.***
 >
