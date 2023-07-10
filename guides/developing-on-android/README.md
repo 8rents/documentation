@@ -1,5 +1,7 @@
 [Documentation](#) > [Guides](#) > __Developing on Android__
 
+------
+
 # Developing on Android
 
 > #### *In depth series of articles detailing setting up a development server using Docker within Termux to set up a web development server, IDE and create a web app.*
@@ -11,8 +13,6 @@
 5. [__Configuring VScode__](#) - Configuring VScode with all the needed bells and whistles to make development enjoyable.
 6. [__Developing a Modern Web App__](#) - Finally with everything in place we'll put together a simple web app using a modern development approach, test it and then launch it on a different server.
 
-## 
-
 ***
 
-🤍**2023** [GitHub](https://github.com/8rents?tab=repositories) **|** [Google Drive](https://bit.ly/brent-gd) **|** [My Bio](https://my.bio/8rents)
+**🤍2023 [Brenton Holiday](https://allmylinks.com/8rents)**

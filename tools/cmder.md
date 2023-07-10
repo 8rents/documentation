@@ -2,9 +2,9 @@
 
 ![tmux](https://raw.githubusercontent.com/8rents/_/i/cmder.png)
 
-# cmder guide
+# Using CMDER
 
-> #### *Portable windows terminal emulatorLovely console emulator package for Windows*
+> ***Lovely, portable console emulator package for Windows***
 
 Cmder is a very portable terminal emulator that can be installed easily on a USB flash or drive and/or Dropbox and stores all your terminal settings. No more having to run a massive powershell script each time I sign onto a public machine :)
 
@@ -23,24 +23,30 @@ https://github.com/cmderdev/cmder/releases/download/v1.3.21/cmder.zip
 
 ### Tab manipulation
 
-- `Ctrl + \`` : **Global** Summon from taskbar
-- `Win + Alt + p` : Preferences (Or right click on title bar)
-- `Ctrl + t` : New tab dialog (maybe you want to open cmd as admin?)
-- `Ctrl + w` : Close tab
-- `shift + alt + number` :fast new tab:
+- `Ctrl + \`` : **Global Summon from taskbar**
+- `Win + Alt + p` : **Preferences (Or right click on title bar)**
+- `Ctrl + t` : **New tab dialog (maybe you want to open cmd as admin?)**
+- `Ctrl + w` : **Close tab**
+- `shift + alt + number` : **fast new tab**
   1.  CMD
   2.  PowerShell
-- `Alt + Enter` : Full screen
+- `Alt + Enter` : **Full screen**
 
 ### Shell
 
-- `Ctrl + Alt + u` : Traverse up in directory structure (lovely feature!)
-- `End, Home, Ctrl` : Traverse text as usual on Windows
-- `Ctrl + r` : History search
-- `Shift + mouse` : Select and copy text from buffer
-- `Right click / Ctrl + Shift + v` : Paste text
+- `Ctrl + Alt + u` : **Traverse up in directory structure (lovely feature!)**
+- **`End**, Home, Ctrl` : **Traverse text as usual on Windows**
+- `Ctrl + r` : **History search**
+- `Shift + mouse` : **Select and copy text from buffer**
+- `Right click / Ctrl + Shift + v` : **Paste text**
 
-### Notes / Docs
+### Notes
+
+#### Copy output to clipboard
+
+```bash
+echo "copy this" | clip.exe
+```
 
 #### Aliases
 
@@ -65,4 +71,4 @@ We'll be happy to help, but you might have a better chance to find solutions on 
 
 ***
 
-🤍**2023** [GitHub](https://github.com/8rents?tab=repositories) **|** [Google Drive](https://bit.ly/brent-gd) **|** [My Bio](https://my.bio/8rents)
+🤍**2023** [**Brenton Holiday**](https://allmylinks.com/8rents)
