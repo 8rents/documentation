@@ -1,10 +1,10 @@
 # Documentation
 
-> #### *Documentation for working with and developing systems as well as tools used for system development.*
+> *Documentation for working with and developing systems as well as tools used for system development.*
 
 ---
 
-These articles and guides will form the outline for the rewrite of the book ***How to be a Hacker, not a Script Kiddie***. In the meantime, I hope these prove useful to someone... :)
+These articles and guides will form the outline for the rewrite of the book *How to be a Hacker, not a Script Kiddie*. In the meantime, I hope these prove useful to someone... :)
 
 ***
 
@@ -31,8 +31,7 @@ Understanding different Linux distributions and how to work with them.
 Articles on various command line tools
 
 - **[ADB (Android Debug Bridge)](adb.md)** --- Tool for connecting to and running commands on Android phones.
-
-- [**Chocolatey**](chocolatey-package-manager.md) --- A package manager for Windows
+- **[Chocolatey](chocolatey-package-manager.md)** --- A package manager for Windows
 - **[CMDR](cmder.md)** --- A multi platform terminal emulator that shines on portability.
 - **[PowerShell](powershell.md)** --- Windows best offering for the command line. *Not counting Linux subsystem.*
 - **[Robocopy](robocopy.md)** --- Windows paltry answer to rsync.
