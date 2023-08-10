@@ -12,19 +12,19 @@ These articles and guides will form the outline for the rewrite of the book *How
 
 In depth series of articles written on a particular subject.
 
-## [__Developing on Android__](developing-on-andrioid/)
+### [__Developing on Android__](developing-on-andrioid/)
 
 In depth series of articles detailing setting up a development server using Docker within Termux to set up a web development server, IDE and create a web app.
 
-## [Ephemeral Computing](ephemeral-computing/README.md)
+### [Ephemeral Computing](ephemeral-computing/README.md)
 
 How to be an engineer when every digital device you have can and likely will be destroyed or stolen imminently. Ephemeral Computing workflow to the rescue!
 
-## [Working with Linux](#)
+### [Working with Linux](#)
 
 Understanding different Linux distributions and how to work with them.
 
-------
+***
 
 ## [Tools](tools/README.md)
 
@@ -40,12 +40,16 @@ Articles on various command line tools
 - **[Typora](typora.md)** --- A multiplatform markdown editor. Clean sleek and minimal.
 - **[YouTube-DL](youtube-dl.md)** --- A command line tool for downloading videos and audio from websites.
 
-------
+***
 
-## Concepts
+## [Concepts](./concepts/README.md)
 
-Conceptual information, aesthetics and best practices
+Conceptual information, aesthetics and best practices.
 
-------
+### [File System for Devices Repository](./concepts/file-system-repository/README.md)
+
+A custom made cloud repository to hold all user files, used software, backups and configurations. Repo uses a simple scheme of User, Operating System & Device with everything being sorted under these archetypes.
+
+***
 
 **🤍2023 [Brenton Holiday](https://allmylinks.com/8rents)**
