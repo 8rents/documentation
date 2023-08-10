@@ -44,7 +44,7 @@ Articles on various command line tools
 
 ## [Concepts](./concepts/README.md)
 
-Conceptual information, aesthetics and best practices.
+Concepts, aesthetics and best practices.
 
 ### [File System for Devices Repository](./concepts/file-system-repository/README.md)
 
