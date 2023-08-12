@@ -39,7 +39,7 @@ The clients folder will be sorted by client name and inside will have all the di
 
 ### Up Next:
 
-#### ==[Syncing Windows Limited (Each Work Session) > ](sync.md)==
+- > [**Syncing Windows Limited** *(Each Work Session) >* ](sync.md)
 
 ---
 

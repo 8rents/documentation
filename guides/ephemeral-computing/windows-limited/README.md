@@ -2,7 +2,7 @@
 
 ## *Ephemeral Computing*
 
-# <img src="https://raw.githubusercontent.com/8rents/_/i/windows10-logoform.png" alt="Windows 11 Logo" style="zoom:50%;" />  Windows `Limited`
+# <img src="https://raw.githubusercontent.com/8rents/_/i/windows10-logoform.png" alt="Windows 11 Logo" style="zoom:25%;" />  **Windows `Limited` & `Public` Work Station**
 
 > #### *This guide is for working with Windows 10 without admin privileges and locked down in all sorts of arbitrary ways. This is the guide that I will be using most of the time while working at the San Francisco Public Library.*
 
@@ -10,11 +10,11 @@
 
 ## Table of Contents
 
-1. **Windows 10 Introduction**
-2. [Windows One Time Set up](setup.md)
-3. [Syncing Windows Each Work Session](sync.md)
+1. **Introduction**
+2. [One Time Set up](setup.md)
+3. [Syncing Each Work Session](sync.md)
 
-### Process Documentation
+### **Process Documentation**
 
 These are the documents I generated putting this workflow together. They are not needed for getting the workflow working, but could be interesting to someone wanting to see my process.
 
@@ -39,11 +39,11 @@ These are the documents I generated putting this workflow together. They are not
 
 ### How the hell is this going to work?!?!
 
-> Where there is a will there is a way
+> Where there is a will there is a way!
 
 ### Wouldn't it be easier to just get your own laptop?!!
 
-> In Theory **YES!**. But what if it gets stolen *10 seconds after I open the lid*? Or it *blows up just minutes after finishing configuration*? Then what Mr. Smarty Pants? **You're Fucked** and I'm not.
+> In Theory, **YES!**. But what if it gets stolen *10 seconds after I open the lid*? Or it *blows up just minutes after finishing configuration*? Then what Mr. Smarty Pants? **You're Fucked** and I'm not.
 
 ### So you think you're going to be an effective software engineer without owning a computer or a phone?!?!
 
