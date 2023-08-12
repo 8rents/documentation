@@ -4,9 +4,11 @@
 
 ### *Ephemeral Computing Workflow*
 
-# <img src="https://raw.githubusercontent.com/8rents/_/i/windows10-logoform.png" alt="Windows 11 Logo" style="zoom:25%;" />  **Part 1: Introduction to Windows `Limited`** Ephemeral Computing Workflow
+# <img src="https://raw.githubusercontent.com/8rents/_/i/windows10-logoform.png" alt="Windows 11 Logo" style="zoom:25%;" />  **Part 1: Introduction to Windows `Limited`** Ephemeral Computing 
 
-> #### *This guide is for working with Windows 10 without admin privileges and locked down in all sorts of arbitrary ways. This is the guide that I will be using most of the time while working at the San Francisco Public Library.*
+>  *This guide is for working with Windows without admin privileges and locked down in all sorts of arbitrary ways.* 
+>
+> *This is the guide that I will be using most of the time while working at the San Francisco Public Library.*
 
 ---
 
