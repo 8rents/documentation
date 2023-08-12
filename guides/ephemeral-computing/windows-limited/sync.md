@@ -1,10 +1,14 @@
 [Ephemeral Computing](../../README.md) > [Windows Limited](../README.md) > **Sync**
 
-# <img src="https://raw.githubusercontent.com/8rents/_/i/windows10-logoform.png" alt="Windows 11 Logo" style="zoom:50%;" />  Sync Ephemeral Computing
+### *Ephemeral Computing Workflow*
 
-## for `Windows 10  Limited`
+# <img src="https://raw.githubusercontent.com/8rents/_/i/windows10-logoform.png" alt="Windows 11 Logo" style="zoom:25%;" /> Part 3: **Sync Windows** `Limited` & `Public` Work Stations
 
-> #### *This guide is for working with Windows 10 without admin privileges and locked down in all sorts of arbitrary ways. This is the guide that I will be using most of the time while working at the San Francisco Public Library.*
+> ***You will need to run follow this guide each time you sign onto a Windows Limited and Public Workstation***
+>
+> *This guide is for working with Windows without admin privileges and locked down in all sorts of arbitrary ways.*
+>
+> *This is how I work at the San Francisco Public Library.*
 
 ---
 
@@ -12,7 +16,7 @@
 
 1. [Introduction / Q&A](README.md)
 2. [Setting up Windows 10 (Once)](setup.md)
-3. **Syncing Windows 10 (Each Work Session)**
+3. **Syncing Windows (Each Work Session)**
 
 ***
 

@@ -1,8 +1,13 @@
 [Ephemeral Computing](../../README.md) > [Windows Limited](../README.md) > **One Time Set Up**
 
-# ==Set up for Windows Limited== *Ephemeral Computing Workflow*
+***
 
-> #### *This guide is for working with Windows 10 without admin privileges and locked down in all sorts of arbitrary ways. This is the guide that I will be using most of the time while working at the San Francisco Public Library.*
+### *Ephemeral Computing Workflow*
+
+
+# Part 2: **One Time Set up for Windows** `Limited` & `Public` Work Stations
+
+> *This guide is for working with Windows 10 without admin privileges and locked down in all sorts of arbitrary ways. This is the guide that I will be using most of the time while working at the San Francisco Public Library.*
 
 ------
 
