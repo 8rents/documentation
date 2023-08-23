@@ -8,7 +8,7 @@ These articles and guides will form the outline for the rewrite of the book *How
 
 ***
 
-## [Guides](https://github.com/8rents/documentation/tree/main/guides)
+## [Guides](tree/guides/README.md)
 
 In depth series of articles written on a particular subject.
 
