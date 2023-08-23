@@ -1,4 +1,4 @@
-# Documentation
+# [Documentation](https://github.com/8rents/documentation/blob/main/README.md)
 
 > *Documentation for working with and developing systems as well as tools used for system development.*
 
@@ -8,7 +8,7 @@ These articles and guides will form the outline for the rewrite of the book *How
 
 ***
 
-## [Guides](tree/guides/README.md)
+## [Guides](./guides/)
 
 In depth series of articles written on a particular subject.
 
