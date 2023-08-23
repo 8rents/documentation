@@ -1,8 +1,12 @@
 [Ephemeral Computing](../../README.md) > [Windows Limited](../README.md) > **Sync**
 
-### *Ephemeral Computing Workflow*
+***
 
-# <img src="https://raw.githubusercontent.com/8rents/_/i/windows10-logoform.png" alt="Windows 11 Logo" style="zoom:25%;" /> Part 3: **Sync Windows** `Limited` & `Public` Work Stations
+#### *Ephemeral Computing Workflow*:
+
+## <img src="https://raw.githubusercontent.com/8rents/_/i/windows10-logoform.png" alt="Windows 11 Logo" style="zoom:30%;" /> Part 3: Windows `Limited` & `Public` Work Stations
+
+# **Sync** Each Working Session
 
 > ***You will need to run follow this guide each time you sign onto a Windows Limited and Public Workstation***
 >

@@ -1,39 +1,30 @@
-# Windows Limited Scripts
-
-> *This folder contains scripts for syncing Windows Limited*
-
-***
-
-## Dropbox Sync Script
-
-```powershell
 #-------------------------------
 # Ephemeral Computing
 # SFPL Dropbox Sync Script
 #-------------------------------
-# For: 				Windows Limited	(Public)
+# For: 			Windows Limited	(Public)
 # Modified: 		Wednesday, August 23, 2023 3:39:33 PM
-# Version:			0.7.4
+# Version:		0.7.4
 #-------------------------------
-# Type:				Sync
+# Type:			Sync
 # Using USB: 		No
-# Settings Storage: Dropbox
+# Settings Storage: 	Dropbox
 # Files Storage: 	Google Drive
 # Documentation: 	https://bit.ly/ephemeral-computing-wl-sync
 #-------------------------------
 # What this Script does
 #-------------------------------
-# 1. 	Intialize Variables
-# 2. 	Windows Theme Preferences
-# 3. 	Explorer Preferences
-# 4. 	Open Windows & Sites
-# 5. 	Installs Chocolatey
-# 6. 	Choco App Installs
-# 7. 	Copy Data Directories for 1st Run
-# 8. 	Edit $PATH	
-# 9. 	Finalize & Confirmation Message 
-# 10. 	Refresh Powershell Environment
-# 11. 	Watch Folders for changes
+# 1. Intialize Variables
+# 2. Windows Theme Preferences
+# 3. Explorer Preferences
+# 4. Open Windows & Sites
+# 5. Installs Chocolatey
+# 6. Choco App Installs
+# 7. Copy Data Directories for 1st Run
+# 8. Edit $PATH	
+# 9. Finalize & Confirmation Message 
+# 10. Refresh Powershell Environment
+# 11. Watch Folders for changes
 #-------------------------------
 #________________________________________________________________
 
@@ -281,16 +272,3 @@ Import-Module $env:ChocolateyInstall\helpers\chocolateyProfile.psm1
 
 #--------------------------------
 `#________________________________________________________________
-```
-
-
-
-
-
-
-
-***
-
-
-
-🤍**2023 [Brenton Holiday](https://allmylinks.com/8rents)**

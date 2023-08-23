@@ -1,39 +1,30 @@
-# Windows Limited Scripts
-
-> *This folder contains scripts for syncing Windows Limited*
-
-***
-
-## Dropbox Sync Script
-
-```powershell
 #-------------------------------
 # Ephemeral Computing
-# SFPL Dropbox Sync Script
+# SFPL USB Sync Script
 #-------------------------------
-# For: 				Windows Limited	(Public)
-# Modified: 		Wednesday, August 23, 2023 3:39:33 PM
-# Version:			0.7.4
+# For: 			Windows Limited	(Public)
+# Modified: 		Wednesday, August 23, 2023 3:28:18 PM
+# Version:		0.7.3
 #-------------------------------
-# Type:				Sync
-# Using USB: 		No
-# Settings Storage: Dropbox
-# Files Storage: 	Google Drive
+# Type:			Sync
+# Using USB: 		Yes
+# Settings Storage: 	USB then Dropbox
+# Files Storage: 	USB then Google Drive
 # Documentation: 	https://bit.ly/ephemeral-computing-wl-sync
 #-------------------------------
 # What this Script does
 #-------------------------------
-# 1. 	Intialize Variables
-# 2. 	Windows Theme Preferences
-# 3. 	Explorer Preferences
-# 4. 	Open Windows & Sites
-# 5. 	Installs Chocolatey
-# 6. 	Choco App Installs
-# 7. 	Copy Data Directories for 1st Run
-# 8. 	Edit $PATH	
-# 9. 	Finalize & Confirmation Message 
-# 10. 	Refresh Powershell Environment
-# 11. 	Watch Folders for changes
+# 1. Intialize Variables
+# 2. Windows Theme Preferences
+# 3. Explorer Preferences
+# 4. Open Windows & Sites
+# 5. Installs Chocolatey
+# 6. Choco App Installs
+# 7. Copy Data Directories for 1st Run
+# 8. Edit $PATH	
+# 9. Finalize & Confirmation Message 
+# 10. Refresh Powershell Environment
+# 11. Watch Folders for changes
 #-------------------------------
 #________________________________________________________________
 
@@ -41,11 +32,12 @@
 # Important Paths
 #-------------------------------
 
+# USB:			D:\
+# Shell Home Directory: D:\Repository\Devices\Computers\Windows 10 Public Library\
+# Windows OS Dir:	D:\Repository\OS\Windows
 # git config, home:	C:\Users\sfplinternet\
-# Dropbox:		C:\Users\sfplinternet\Dropbox\
-# Windows OS Dir:	C:\Users\sfplinternet\Dropbox\Repository\OS\Windows
-# Shell Home Directory: C:\Users\sfplinternet\Dropbox\Repository\Devices\Computers\Windows 10 Public Library\
 # Local Data: 		C:\Users\sfplinternet\AppData\Roaming\
+# Dropbox:		C:\Users\sfplinternet\Dropbox\
 # vscode, rsync: 	C:\tools\
 # choco installs:	C:\ProgramData\chocoportable\lib\
 
@@ -61,7 +53,7 @@
 # 2. Log into Dropbox with Google
 # 3. Log into Github
 # 4. Open Cmnder Terminal as {PowerShell::PowerShell}
-# 5. Run .\dropbox-sync.ps1 from the shell home directory (C:\Users\sfplinternet\Dropbox\Repository\Devices\Computers\Windows 10 Public Library\)
+# 5. Run .\usb-sync.ps1 from the shell home directory (D:\Repository\Devices\Computers\Windows 10 Public Library\)
 
 #--------------------------------
 #________________________________________________________________
@@ -187,8 +179,8 @@ choco install vscode.portable git.install bitwarden rsync unison adb curl wget y
 # Typora data
 #--------------------------------
 
-# Dropbox (OS Settings)
-cp -r "C:\Users\sfplinternet\Dropbox\Repository\OS\Windows\Settings\Apps\Installed\Typora\Data" "C:\Users\sfplinternet\AppData\Roaming\Typora"; 
+# USB (OS Settings)
+cp -r "D:\Repository\OS\Windows\Settings\Apps\Installed\Typora\Data" "C:\Users\sfplinternet\AppData\Roaming\Typora"; 
 
 #--------------------------------
 # GitHub
@@ -196,8 +188,11 @@ cp -r "C:\Users\sfplinternet\Dropbox\Repository\OS\Windows\Settings\Apps\Install
 # !depricated - Pull repos into ~\Downloads every use	
 #--------------------------------
 
+# USB (OS Settings)
+cp -r "D:\Repository\OS\Windows\Settings\Apps\Data\GitHub" "C:\Users\sfplinternet\AppData\Roaming\GitHub Desktop";
+
 # Dropbox (OS Settings)
-cp -r "C:\Users\sfplinternet\Dropbox\Repository\OS\Windows\Settings\Apps\Data\GitHub" "C:\Users\sfplinternet\AppData\Roaming\GitHub Desktop";
+# cp -r "C:\Users\sfplinternet\Dropbox\Settings\OS\Windows\App Data Folders\GitHub" "C:\Users\sfplinternet\AppData\Roaming\GitHub Desktop"; 
 
 #--------------------------------
 # Local Git data	
@@ -205,17 +200,21 @@ cp -r "C:\Users\sfplinternet\Dropbox\Repository\OS\Windows\Settings\Apps\Data\Gi
 # !note - this should never need to change. Should changes occour, modify in Dropbox and Copy the changes to ~\
 #--------------------------------
 
+# From USB (User Settings)
+cp -r "D:\Repository\Users\8rents\Settings\CLI\git\config.toml" "C:\Users\sfplinternet\.gitconfig"; 
+cp -r "D:\Repository\Users\8rents\Settings\CLI\git\global-ignore.toml" "C:\Users\sfplinternet\.gitignore_global";
+
 # From Dropbox (User Settings)
-cp -r "C:\Users\sfplinternet\Dropbox\Repository\Users\8rents\Settings\CLI\git\config.toml" "C:\Users\sfplinternet\.gitconfig"; 
-cp -r "C:\Users\sfplinternet\Dropbox\Repository\Users\8rents\Settings\CLI\git\global-ignore.toml" "C:\Users\sfplinternet\.gitignore_global";
+# cp -r "C:\Users\sfplinternet\Dropbox\Settings\Users\Brent\CLI\git\config.toml" "C:\Users\sfplinternet\.gitconfig"; 
+# cp -r "C:\Users\sfplinternet\Dropbox\Settings\Users\Brent\CLI\git\global-ignore.toml" "C:\Users\sfplinternet\.gitignore_global";
 
 #--------------------------------
 # VSCode data
 # Only copy for first run
 #--------------------------------
 
-# From Dropbox (OS Settings)
-cp -r "C:\Users\sfplinternet\Dropbox\Repository\OS\Windows\Settings\Apps\Data\vscode" "C:\tools\vscode\data"
+# From USB (OS Settings)
+cp -r "D:\Repository\OS\Windows\Settings\Apps\Data\vscode" "C:\tools\vscode\data"
 
 # From Dropbox (OS Settings)
 # cp -r "C:\Users\sfplinternet\Dropbox\Settings\OS\Windows\App Data Folders\vscode" "C:\tools\vscode\data"
@@ -281,16 +280,3 @@ Import-Module $env:ChocolateyInstall\helpers\chocolateyProfile.psm1
 
 #--------------------------------
 `#________________________________________________________________
-```
-
-
-
-
-
-
-
-***
-
-
-
-🤍**2023 [Brenton Holiday](https://allmylinks.com/8rents)**

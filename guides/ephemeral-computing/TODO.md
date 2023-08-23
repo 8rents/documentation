@@ -1,10 +1,12 @@
 # Todo List
 
+### For Guides on *Ephemeral Computing* 
+
 > #### *The never ending list of things to get done…*
 
 ------
 
-## To-Do
+## Todos
 
 - [ ] __`Docs`__ Complete the **Set up** Doc for Windows Limited *`created: 6/1/23`*
 - [ ] __`Docs`__ Complete the **Sync** Doc for Windows Limited *`created: 6/1/23`*
