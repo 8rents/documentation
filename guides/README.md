@@ -6,15 +6,15 @@
 
 > #### *In depth series of articles written on a particular subject.*
 
-## [__Developing on Android__](./developing-on-andrioid)
+## [__Developing on Android__](./guides/developing-on-andrioid)
 
 In depth series of articles detailing setting up a development server using Docker within Termux to set up a web development server, IDE and create a web app.
 
-## [Ephemeral Computing](./ephemeral-computing)
+## [Ephemeral Computing](./guides/ephemeral-computing)
 
 How to be an engineer when every digital device you have can and likely will be destroyed or stolen imminently. Ephemeral Computing workflow to the rescue!
 
-## [Working with Linux](./working-with-linux)
+## [Working with Linux](./guides/working-with-linux)
 
 Understanding different Linux distributions and how to work with them.
 
