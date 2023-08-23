@@ -6,7 +6,7 @@
 
 > #### *In depth series of articles detailing setting up a development server using Docker within Termux to set up a web development server, IDE and create a web app.*
 
-1. [__Getting set up__](./getting-set-up) - Downloading Termux and AnLinux then installing Debian.
+1. [__Getting set up__](./01-getting-set-up) - Downloading Termux and AnLinux then installing Debian.
 2. [__Setting up your environments__](./02-setting-up-your-environments) - Getting *oh my zsh* & and tmux configured, then installing Docker on the server side. 
 3. [__Creating a Webserver__](./03-creating-a-web-server) - Installing *nginx* with *Docker* and then connecting to it from the Android side.
 4. [__Running VScode on Android__](./04-running-vscode-on-android) - Setting up VScode using *Code Server*
