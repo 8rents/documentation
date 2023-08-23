@@ -6,7 +6,7 @@
 
 > #### *In depth series of articles written on a particular subject.*
 
-## [__Developing on Android__](./developing-on-andrioid)
+## [__Developing on Android__](developing-on-andrioid)
 
 In depth series of articles detailing setting up a development server using Docker within Termux to set up a web development server, IDE and create a web app.
 
