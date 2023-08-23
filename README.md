@@ -8,19 +8,19 @@ These articles and guides will form the outline for the rewrite of the book *How
 
 ***
 
-## Guides
+## [Guides](https://github.com/8rents/documentation/tree/main/guides)
 
 In depth series of articles written on a particular subject.
 
-### [__Developing on Android__](guides/developing-on-andrioid/)
+### [__Developing on Android__](tree/main/guides/developing-on-android)
 
 In depth series of articles detailing setting up a development server using Docker within Termux to set up a web development server, IDE and create a web app.
 
-### [Ephemeral Computing](guides/ephemeral-computing/README.md)
+### [Ephemeral Computing](tree/main/guides/ephemeral-computing/README.md)
 
 How to be an engineer when every digital device you have can and likely will be destroyed or stolen imminently. Ephemeral Computing workflow to the rescue!
 
-### [Working with Linux](guides/working-with-linux/README.md)
+### [Working with Linux](tree/main/guides/working-with-linux/README.md)
 
 Understanding different Linux distributions and how to work with them.
 
