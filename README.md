@@ -8,6 +8,22 @@ These articles and guides will form the outline for the rewrite of the book *How
 
 ***
 
+## [Concepts](./concepts)
+
+Various conceptual designs
+
+### [Ephemeral Computing](./concepts/ephemeral-computing)
+
+How to be an engineer when every digital device you have can and likely will be destroyed or stolen imminently. Ephemeral Computing workflow to the rescue!
+
+### [Automatic Device Deployment File System Repository](./concepts/file-system-repository)
+
+Partially inspired by my ephemeral computing concept. Since all my devices were being stolen or destroyed so rapidly I needed a repository to deploy and backup all device configurations and user files automatically with a reusable, cascading architechure.
+
+This series of articles details my adventures designing and contructing it!
+
+***
+
 ## [Guides](./guides)
 
 In depth series of articles written on a particular subject.
@@ -15,10 +31,6 @@ In depth series of articles written on a particular subject.
 ### [__Developing on Android__](./guides/developing-on-android)
 
 In depth series of articles detailing setting up a development server using Docker within Termux to set up a web development server, IDE and create a web app.
-
-### [Ephemeral Computing](./guides/ephemeral-computing)
-
-How to be an engineer when every digital device you have can and likely will be destroyed or stolen imminently. Ephemeral Computing workflow to the rescue!
 
 ### [Working with Linux](./guides/working-with-linux)
 
@@ -36,6 +48,7 @@ Articles on various command line tools
 - **[PowerShell](./tools/powershell.md)** - Windows best offering for the command line. *Not counting Linux subsystem.*
 - **[Robocopy](./tools/robocopy.md)** - Windows paltry answer to rsync.
 - **[rSync](./tools/rsync.md)** - The defacto tool for backing up and syncing directories.
+- **[Termux the Android Terminal](./tools/termux/README.md)** - Termux is the defacto terminal emulator on Android. This series of articles takes you through tons of super neat configurations.
 - **[Tmux](./tools/tmux.md)** - A terminal multiplexor. Kick your command line into hyper drive or just buy a mac and use iTerm2.
 - **[Typora](./tools/typora.md)** - A multiplatform markdown editor. Clean sleek and minimal.
 - **[YouTube-DL](./tools/youtube-dl.md)** - A command line tool for downloading videos and audio from websites.
