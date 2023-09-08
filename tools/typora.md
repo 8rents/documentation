@@ -1,12 +1,12 @@
+
+
 [Documentation](../../../tree/1st-drafts) > [Tools](./) > **Typora**
 
-![Typora Icon](https://raw.githubusercontent.com/8rents/_/i/typora-icon.png)
+# <img src="https://raw.githubusercontent.com/8rents/_/i/typora-icon.png" alt="Typora Icon" style="zoom:15%;" /> Typora
 
-# Typora
+*A Beautiful cross platform markdown editor.*
 
-> #### ***A Beautiful cross platform markdown editor.***
->
-> *This is a guide to hacking Typora. A how to on creating your own themes, hacking preferences and power using this GUI app to create beautiful documentation with ease.*
+> ***This is a guide to hacking Typora. A how to on creating your own themes, hacking preferences and power using this GUI app to create beautiful documentation with ease.***
 
 ---
 
@@ -24,9 +24,79 @@ Memorization is for suckers. Write good documentation.
 
 ## Typora automatic Setup
 
-I have 2 options as far as setting up typora automatically. 
+Since our Windows environment is destroyed after each use, we don’t want to take 15 minutes and run through the same settings every time we sit down to work. What we want to do is save the settings we make once, and then load them each time.
 
-### Option 1 --- Linking a data directory
+When you install Typora, you can select the install location. This picks where the `Typora` folder with the `Typora.exe` is going to live. It doesn’t really matter at all where this folder lives because our settings are no stored in it.
+
+### Where Typora Settings are stored
+
+Settings are always stored in the AppData directory at:
+
+```bash
+# Typora Active Setting (AppData)
+"C:\Users\sfplinternet\AppData\Roaming\Typora"
+```
+
+The fastest way to get this set up is as follows. 
+
+Using a USB or Dropbox pick a location to store only Typora’s settings data.
+
+I’ll store mine on a USB here:
+
+```bash
+# Settings Data Directory on a USB
+"D:\Repo\Settings\OS\Windows\Apps\Active\Typora\Data"
+```
+
+I’ll also Install a copy of Typora to my USB to this directory:
+
+```bash
+# Install Directory on a USB
+"D:\Repo\Settings\OS\Windows\Apps\Active\Typora\Typora"
+```
+
+### Starting up Typora
+
+If I click on the exe here:
+
+```bash
+# Where my installed Typora.exe is stored
+"D:\Repo\Settings\OS\Windows\Apps\Active\Typora\Typora\Typora.exe"
+```
+
+It will create the `AppData/Roaming/Typora` folder for my settings and it will be like a fresh install of the app with none of my settings.
+
+### Making sure the settings sync
+
+If I copy my stored settings data folder to that location before running the app, it will load all of my old settings.
+
+One potential issue is that any changes I make to the settings in the app, won’t be copied back automatically.
+
+#### Creating a symlink
+
+The ideal solution here would be using a symlink and simply dropping a symlink pointing to:                      
+
+```bash
+"C:\Users\sfplinternet\AppData\Roaming\Typora" => "D:\Repo\Settings\OS\Windows\Apps\Active\Typora\Data" 
+```
+
+Creating the link would be really easy. Something like:
+
+```bash
+ln -s "D:\Repo\Settings\OS\Windows\Apps\Active\Typora\Data" "C:\Users\sfplinternet\AppData\Roaming\Typora"
+```
+
+**Unfortunately that doesn’t work :(**
+
+With Windows 10 you need Admin privs which we don’t have.
+
+##### No Symlinks for you! That’d be 
+
+
+
+---
+
+### Option 1 - Linking a data directory
 
 Try  to find a way to link (hard or sym) the installed data directory back tgo a preconfigured directory on the USB. This would probably be the ideal approch because then I could easily update it and the updates would be installed on the USB and the **app would become fully portable.**
 
@@ -46,7 +116,7 @@ The locations of the directory that is craeted when typora is installed and then
 "D:\Settings\OS\Windows\Programs\Installed\Typora\data"
 ```
 
-### Option 2 --- Moving configuration Files
+### Option 2 - Moving configuration Files
 
 Have a directory on the USB with modified configuration files and then to move each of the files to the correct spot on. 
 
@@ -70,7 +140,7 @@ I'll need to make 3 folders
 
 ---
 
-## Install Script  --- General Gist
+## Install Script  - General Gist
 
 1. Have Typora closed
 2. Copy `Typora` to `Typora-original`
