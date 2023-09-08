@@ -22,20 +22,15 @@ Cmder is a portable terminal emulator that can be installed easily on a USB flas
 I have 4 main goals for my terminal set up. *I want my terminal to be:*
 
 1. As **portable** as possible
-
 2. As **Linuxy** as possible
-
 3. ***Sexy as fuck*** and ***very configurable***
-
 4. **Using package managers**. We will have one for each platform / shell.
-
-   
 
 ### Goal 1: Portable
 
 I want to have my terminal installed on my USB or on Dropbox or Google Drive. I’d like as many of the settings and configurations to be saved between sessions.
 
-### Goal 2: Linuxishy                                           
+### Goal 2: Make it as Linuxy as Possible                                      
 
 I’m not sure that this is actually a word, but if you’ve used terminals on both Windows and Linux, you’ll see a world of difference in how these things work. I want my bash to be as similar to bash on a Linux install with as many of the same programs. Not some cobbled together frankenbash dumb monster.
 
