@@ -1,14 +1,20 @@
 [Documentation](../../../tree/1st-drafts) > [Tools](./) > **Chocolatey**
 
-![tmux](https://raw.githubusercontent.com/8rents/_/i/chocolatey-logo.svg)
+---
 
-# Chocolatey: A Windows Package Manager
+![Chocolately](https://raw.githubusercontent.com/8rents/_/i/chocolatey-logo.svg)
+
+# Chocolatey
+
+> ***A Windows Package Manager***
+
+---
 
 ## Installation
 
 Ideally run through admin PowerShell terminal. However non admin installs should work ok. Some application installs will fail though.
 
-### Non-Admin Install
+### Non-Admin Installsxz
 
 https://docs.chocolatey.org/en-us/choco/setup#non-administrative-install
 

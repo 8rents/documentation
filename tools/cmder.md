@@ -1,23 +1,40 @@
 [Documentation](../) > [Tools](./) > **CMDR**
 
-<img src="https://raw.githubusercontent.com/8rents/_/i/cmder.png" alt="tmux" style="zoom: 25%;" />
+---
 
-#  Cmder
+#  <img src="https://raw.githubusercontent.com/8rents/_/i/cmder-icon.png" style="zoom:15%;" /> Cmder
 
-> ***Lovely, portable console emulator package for Windows***
+>  ***Lovely, portable console emulator package for Windows***
 
-Cmder is a portable terminal emulator that can be installed easily on a USB flash or drive and/or Dropbox and stores all your terminal settings. No more having to run a massive PowerShell script each time I sign onto a public machine :)
+Cmder is a portable terminal emulator that can be installed easily on a thumb drive or in the clouds and stores all your terminal settings. It has 2 versions of bash, cmd & PowerShell.
 
-## Links
+![cmder screenshot](https://raw.githubusercontent.com/8rents/_/i/cmder-screenshot.png)
+
+---
+
+## Links 
+
+***(cited or discussed in this article)***
 
 - [**Download Cmder** on GutHub](https://github.com/cmderdev/cmder/releases/download/v1.3.21/cmder.zip)
-- [The **differences between MSYS2 & MinGW** Bash](https://github.com/git-for-windows/build-extra#the-difference-between-msys2-and-mingw)
+
+- [**Chocolatey** - Windows Package Manager](https://chocolatey.org/)
+
+  - [**Configuring Chocolatey**](https://docs.chocolatey.org/en-us/choco/commands/config)
+
+  [**Scoop** - Alternate Portable Windows Package Management](https://scoop.sh/)
+
+- [**Mysys2 Documentation**](https://www.msys2.org/)
+
+  - [The **differences between MSYS2 & MinGW** Bash](https://github.com/git-for-windows/build-extra#the-difference-between-msys2-and-mingw)
+
 - [**Starship** - A cross Shell Prompt](https://starship.rs/)
+
 - [**Oh My Bash** - A Shell Framework & Shameless Fork of *Oh My ZSH*](https://ohmybash.nntoan.com/)
 
 ---
 
-## Goals & Setup
+## Goals & Setupa
 
 I have 4 main goals for my terminal set up. *I want my terminal to be:*
 
