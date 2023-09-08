@@ -1,29 +1,78 @@
 [Documentation](../) > [Tools](./) > **CMDR**
 
-![tmux](https://raw.githubusercontent.com/8rents/_/i/cmder.png)
+<img src="https://raw.githubusercontent.com/8rents/_/i/cmder.png" alt="tmux" style="zoom: 25%;" />
 
-# Using CMDER
+#  Cmder
 
 > ***Lovely, portable console emulator package for Windows***
 
-Cmder is a very portable terminal emulator that can be installed easily on a USB flash or drive and/or Dropbox and stores all your terminal settings. No more having to run a massive powershell script each time I sign onto a public machine :)
+Cmder is a portable terminal emulator that can be installed easily on a USB flash or drive and/or Dropbox and stores all your terminal settings. No more having to run a massive PowerShell script each time I sign onto a public machine :)
 
+## Links
 
+- [**Download Cmder** on GutHub](https://github.com/cmderdev/cmder/releases/download/v1.3.21/cmder.zip)
+- [The **differences between MSYS2 & MinGW** Bash](https://github.com/git-for-windows/build-extra#the-difference-between-msys2-and-mingw)
+- [**Starship** - A cross Shell Prompt](https://starship.rs/)
+- [**Oh My Bash** - A Shell Framework & Shameless Fork of *Oh My ZSH*](https://ohmybash.nntoan.com/)
 
-## Download cmdr
+---
 
-- [Github](https://github.com/cmderdev/cmder/releases/download/v1.3.19/C)
-- ~~[Website](https://cmder.net/)~~ [Down]
+## Goals & Setup
 
-## Installation
+I have 4 main goals for my terminal set up. *I want my terminal to be:*
 
-https://github.com/cmderdev/cmder/releases/download/v1.3.21/cmder.zip
+1. As **portable** as possible
 
-## Basic Usage
+2. As **Linuxy** as possible
+
+3. ***Sexy as fuck*** and ***very configurable***
+
+4. **Using package managers**. We will have one for each platform / shell.
+
+   
+
+### Goal 1: Portable
+
+I want to have my terminal installed on my USB or on Dropbox or Google Drive. I’d like as many of the settings and configurations to be saved between sessions.
+
+### Goal 2: Linuxishy                                           
+
+I’m not sure that this is actually a word, but if you’ve used terminals on both Windows and Linux, you’ll see a world of difference in how these things work. I want my bash to be as similar to bash on a Linux install with as many of the same programs. Not some cobbled together frankenbash dumb monster.
+
+This led me to [comparing the 2 bundled versions of bash in Cmder, mingw and mysys2](https://github.com/git-for-windows/build-extra#the-difference-between-msys2-and-mingw).
+
+### Goal 3: ***Sexy as fuck*** and ***very configurable***
+
+We will be using the mysys2 version of bash instead of the mingw version. 
+
+I’ll be adding on a front end to bash as well using either [starship](https://starship.rs/) which is a cross shell prompt, that is super easy to configure and theme, or [oh-my-bash](https://ohmybash.nntoan.com/) which is a framework based on `oh-my-zsh` used for theming, extending and writing plugins.
+
+### Goal 4: Package managers
+
+I want to have package managers available for each of the shells that I’m using so that I can quickly install and update complex sets of software.
+
+- **For Windows: ** We will be using Chocolatey as our package manager.
+- **For Mysys2 Bash: ** We will be using `pacman`! Yep, the same package manager that comes bundled with arch Linux come bundled with our precious version of bash.
+
+----
+
+## Nifty Tips
+
+### 1. Copy terminal output to clipboard
+
+```bash
+echo "copy this" | clip.exe
+```
+
+---
+
+## Keyboard Commands
+
+Here’s some nifty keyboard commands to fire off in Cmder.
 
 ### Tab manipulation
 
-- `Ctrl + \`` : **Global Summon from taskbar**
+- `Ctrl + \` : **Global Summon from taskbar**
 - `Win + Alt + p` : **Preferences (Or right click on title bar)**
 - `Ctrl + t` : **New tab dialog (maybe you want to open cmd as admin?)**
 - `Ctrl + w` : **Close tab**
@@ -34,41 +83,13 @@ https://github.com/cmderdev/cmder/releases/download/v1.3.21/cmder.zip
 
 ### Shell
 
-- `Ctrl + Alt + u` : **Traverse up in directory structure (lovely feature!)**
+- **Traverse up in directory structure (lovely feature!)**  
+  `Ctrl + Alt + u` 
 - **`End**, Home, Ctrl` : **Traverse text as usual on Windows**
 - `Ctrl + r` : **History search**
 - `Shift + mouse` : **Select and copy text from buffer**
 - `Right click / Ctrl + Shift + v` : **Paste text**
 
-### Notes
+---
 
-#### Copy output to clipboard
-
-```bash
-echo "copy this" | clip.exe
-```
-
-#### Aliases
-
-There is simple support for aliases. They can be created by using the `alias` command like this: `alias ls=ls --color $*`. They are pretty much just *doskeys* in `/config/aliases`. One per line. And make sure to handle arguments by putting argument variables `$*` somewhere.
-
-#### Updating + Building
-
-There is not much going on here. But if you want to get most recent updates for Conemu just tick *auto-updating* in preferences. If you want to clone the repo and build it yourself, you will need *PowerShell >=3.0 and 7z*. When you are set on that, just run `scripts/build.ps1`.
-
-#### Documentations
-
-Most of the Cmder functionality are documented in the [readme](https://github.com/cmderdev/cmder/blob/master/README.md) file on GitHub. We have extented help available in [Cmder Wiki](https://github.com/cmderdev/cmder/wiki), also regarding integration.
-
-If you're having trouble with anything, please have a look at the GitHub [issues](https://github.com/cmderdev/cmder/issues?q=is:issue), or create [a new one](https://github.com/cmderdev/cmder/issues/new).
-We'll be happy to help, but you might have a better chance to find solutions on the pages of the upstream projects. Those are:
-
-- Console emulator ~ [Conemu](https://conemu.github.io/)
-- Cmd.exe enhancements ~ [clink](https://chrisant996.github.io/clink/)
-- Unix tools on windows ~ [git for windows](https://gitforwindows.org/)
-
-
-
-***
-
-🤍**2023** [**Brenton Holiday**](https://allmylinks.com/8rents)
+**🤍2023 [Brenton Holiday](https://allmylinks.com/8rents)**
