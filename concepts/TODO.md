@@ -1,23 +1,20 @@
-# Todo List
+# *Concepts* Todo List
 
 > #### *The never ending list of things to get done…*
 
 ------
 
-## The To Do Cue:
+## Cue:
 
-- [ ] __`GitHub`__ Make sure document linking is correctly set up *`created: 2023-06-07 19:31:25`*
-- [ ] __`TOC`__ Dial in Headers and Tables of Contents for each section after linking is established *`created: 6/6/23 2023-06-07 19:32:25`*
 
-## *Doing…*
-
-*Whatchu Up To?*
 
 ## Done
 
 - [x] __`Git`__ Create a documentation section for file system designs ***`completed:`**` 2023-06-07 17:52:21`*
 - [x] __`Documentation`__ Transcribe ettings Doc into markdown ***`completed:`**` 2023-06-07 19:10:15`*
 - [x] __`Documentation`__ Transcribe File system Doc into markdown ***`completed:`**` 2023-06-07 19:32:54`*
+- [x] __`GitHub`__ Make sure document linking is correctly set up *`created: 2023-06-07 19:31:25`*
+- [x] __`TOC`__ Dial in Headers and Tables of Contents for each section after linking is established *`created: 6/6/23 2023-06-07 19:32:25`*
 
 ------
 
