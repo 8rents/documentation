@@ -10,9 +10,9 @@
 
 In depth series of articles detailing setting up a development server using Docker within Termux to set up a web development server, IDE and create a web app.
 
-## [Ephemeral Computing](./ephemeral-computing)
+## [Developing on Windows](developing-on-windows)
 
-How to be an engineer when every digital device you have can and likely will be destroyed or stolen imminently. Ephemeral Computing workflow to the rescue!
+In depth series of articles detailing how to begin developing on windows. The guide will focus on getting set up on Public Boxes with limited/ locked down temporary accounts that erase after each session.
 
 ## [Working with Linux](./working-with-linux)
 
