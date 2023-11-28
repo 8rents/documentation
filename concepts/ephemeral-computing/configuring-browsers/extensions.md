@@ -4,7 +4,7 @@
 
 ---
 
-## 💯 Essential 😁
+## 💯 Completely Essential 😁
 
 These are my 100% essential browser extensions.
 
@@ -95,14 +95,14 @@ I'm currently running all of the extensions listed below. However, I don't regar
 The following extensions are available for Firefox only.
 
 1. ### Easy YouTube Video Downloader Express
-    
+   
     Download YouTube videos and extract audio from them. Since it's going to take me a while to get back on all my l33t torrent sites, this is what I'll be using to download music in the meantime.
 
     - [Homepage](https://www.yourvideofile.org/)
     - [Firefox Add Ons](https://addons.mozilla.org/en-US/firefox/addon/easy-youtube-video-download/)
    
 2. ### Save WebP as PNG or JPEG
-    
+   
     Google's annoying and proprietary `webp` image format is everywhere now. This lets you download those images in a more friendly and cross. This Add On is only available for Firefox. For Google Chrome I use the Extension [Save Image as PNG](https://chrome.google.com/webstore/detail/save-image-as-png/nkokmeaibnajheohncaamjggkanfbphi)
 
     - [Homepage](https://github.com/jscher2000/Save-webP-as-extension)
@@ -137,7 +137,7 @@ The following extensions are only available for Google Chrome and Chrome related
 2. ### Save Image as PNG
 
    Saves an image (like WebP) as  a PNG. Great counterpart to Firefox's Save WebP as PNG or JPEG.
-    
+   
 3. ### Always Clear Downloads 2
 
    Closes the download bar when a download completes and empties the download list when the browser quits. 
