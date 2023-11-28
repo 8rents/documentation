@@ -8,9 +8,11 @@
 
 These are my 100% essential browser extensions.
 
-1. ### Bitwarden
+1. ### Bitwarden Password Manager
 
     Bitwarden is a Password Manager. I'll have my passwords saved browser independent. It will provide Autofill Capabilities and simplify sign ins. It will also let me generate long random passwords that I will never see or need to remember.
+
+    **`ctrl + shift + L` to autofill logins is a godsend.**
 
     - [Homepage](https://bitwarden.com/)
     - [Firefox Add Ons](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/)
