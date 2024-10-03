@@ -20,4 +20,4 @@ Understanding different Linux distributions and how to work with them.
 
 ***
 
-**🤍2023 [Brenton Holiday](https://allmylinks.com/8rents)**
+**🤍2024 [Brenton Holiday](https://8rents.github.io)**
