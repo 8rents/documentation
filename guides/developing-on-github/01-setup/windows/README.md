@@ -1,12 +1,12 @@
-[Documentation](./) > [Guides](./guides) > __Developing on GitHub__
+[Documentation](./) > [Guides](../guides/README.md) > [Developing on GitHub](../README.md) > [Getting Set Up on](../README.md) > **Windows**
 
 ---
 
-### Getting set up on:
+### [Getting set up on:](../../README.md)
 
 # Windows
 
-> ***To Developing on GitHub***
+#### *To Developing on GitHub*
 
 ---
 
@@ -40,6 +40,10 @@ This will install 3 things:
 - **`git`** - the basis of GitHub. Also the basis of scoop.
 - **`windows-terminal`** - A much nicer terminal than PowerShell
 - **`nodejs`** - The server side programming environment we will be developing in.
+
+## Up Next
+
+[**Building our first nodejs app**](../02-node/README.md)
 
 ---
 

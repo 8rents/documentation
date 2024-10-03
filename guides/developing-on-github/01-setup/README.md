@@ -1,12 +1,12 @@
-[Documentation](./) > [Guides](./guides) > __Developing on GitHub__
+[Documentation](./) > [Guides](../guides/README.md) > [Developing on GitHub](../README.md) > **Getting Set Up**
 
 ---
 
-# Getting set up on:
+# [Getting nodejs set up on:]()
 
-## [Windows](setup/windows/READ) | [Linux]()
+## [Windows](../../setup/windows/READ) | [Linux](../../linux/README.md)
 
-> ***To developing on GitHub***
+#### ***To developing on GitHub***
 
 ---
 
